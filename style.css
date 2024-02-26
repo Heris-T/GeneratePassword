@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    transition: background-color 0.5s ease;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+  }
+  
+  #generated-password {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  #copy-button, #clear-history {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4285f4;
+    color: #fff;
+    display: inline-block;
+  }
+  
+  #clear-history {
+    margin-left: 10px;
+  }
+  
+  #password-history {
+    margin-top: 20px;
+  }
+  
